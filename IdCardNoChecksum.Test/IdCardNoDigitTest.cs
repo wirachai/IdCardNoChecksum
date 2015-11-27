@@ -1,13 +1,9 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace IdCardNoChecksum.Test
 {
     [TestFixture]
-    class IdCardNoDigitTest
+    internal class IdCardNoDigitTest
     {
         [Test]
         public void FirstDigit_ShouldBe13_WhenInput1()
